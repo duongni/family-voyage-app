@@ -79,13 +79,13 @@ input :focus {
 }
 .guest button {
   position: absolute;
-  top: 15%;
+  top: 24%;
   right: 10px;
-  transition: translateY(-50%);
+
   background: #379fb6;
   color: white;
-  padding: 12px 14px;
-  font-size: 13px;
+  padding: 10px 12px;
+  font-size: 8px;
   border: none;
   border-radius: 50%;
 }
