@@ -1,11 +1,15 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import SearchBar from "./SearchBar";
+import Features from "./Features";
 
 function App() {
   return (
     <div className="App">
-      <SearchBar />
+      <div className="header">
+        <SearchBar />
+        <Features />
+      </div>
     </div>
   );
 }

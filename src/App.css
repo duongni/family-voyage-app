@@ -8,24 +8,31 @@
 html,
 body {
   height: 100%;
+  color: #161821;
 }
 body {
   margin-left: 0;
   margin-right: 0;
   font-family: "Noto Sans JP", sans-serif;
 }
+.header {
+  position: fixed;
+}
 .website-name {
   font-family: "Pacifico", cursive;
   color: white;
   font-size: 60px;
+  width: 10%;
+  line-height: 1;
+  letter-spacing: 3px;
 }
-.container {
+.SearchBar {
   display: flex;
   justify-content: space-around;
   background-image: url("./images/landing-page-1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 20px 10px;
+  padding: 25px 20px;
   width: 100vw;
   margin: 0;
   align-items: baseline;
@@ -75,7 +82,7 @@ input :focus {
   top: 15%;
   right: 10px;
   transition: translateY(-50%);
-  background: #37b2b6;
+  background: #379fb6;
   color: white;
   padding: 12px 14px;
   font-size: 13px;

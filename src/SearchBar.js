@@ -1,12 +1,12 @@
 import React from "react";
-import Features from "./Features";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 
 export default function SearchBar() {
   return (
     <div>
-      <header className="container">
+      <header className="SearchBar">
         <div className="website-name">Family Voyage</div>
         <div className="bar">
           <div className="location">
@@ -30,7 +30,6 @@ export default function SearchBar() {
           </div>
         </div>
       </header>
-      <Features />
     </div>
   );
 }

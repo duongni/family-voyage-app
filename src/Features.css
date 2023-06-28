@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;800&family=Open+Sans:wght@300;400;500;600;700&family=Pacifico&display=swap");
+.Features {
+  display: flex;
+  justify-content: space-evenly;
+  width: 800px;
+  margin: 10px auto;
+}
+.child-friendly,
+.pool,
+.nature,
+.lake-house,
+.rental,
+.hotel {
+  text-align: center;
+  color: #4abcd6;
+  transition: all 0.5ms ease-in-out;
+  cursor: pointer;
+}
+.feature-icon {
+  font-size: 26px;
+}
+p {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.child-friendly:hover,
+.pool:hover,
+.nature:hover,
+.lake-house:hover,
+.rental:hover,
+.hotel:hover {
+  text-align: center;
+  color: #379fb6;
+}
