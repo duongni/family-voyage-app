@@ -15,27 +15,27 @@ body {
   margin-right: 0;
   font-family: "Noto Sans JP", sans-serif;
 }
-.header {
-  position: fixed;
-}
+
 .website-name {
   font-family: "Pacifico", cursive;
-  color: white;
+  color: #005397;
   font-size: 60px;
   width: 10%;
   line-height: 1;
   letter-spacing: 3px;
+  margin-bottom: 5px;
 }
 .SearchBar {
   display: flex;
   justify-content: space-around;
-  background-image: url("./images/landing-page-1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 25px 20px;
+  padding: 20px 20px;
   width: 100vw;
   margin: 0;
   align-items: baseline;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
 }
 .bar {
   width: 650px;
@@ -69,9 +69,11 @@ input {
   border: none;
   padding: 6px 0 0 0;
   color: #6c757d;
+  outline-width: 0;
 }
 input :focus {
   outline: none;
+  border: none;
 }
 .guest {
   width: 40%;
@@ -81,8 +83,7 @@ input :focus {
   position: absolute;
   top: 24%;
   right: 10px;
-
-  background: #379fb6;
+  background: #005397;
   color: white;
   padding: 10px 12px;
   font-size: 8px;

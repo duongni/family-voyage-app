@@ -12,7 +12,7 @@
 .rental,
 .hotel {
   text-align: center;
-  color: #4abcd6;
+  color: #005397;
   transition: all 0.5ms ease-in-out;
   cursor: pointer;
 }
@@ -32,5 +32,5 @@ p {
 .rental:hover,
 .hotel:hover {
   text-align: center;
-  color: #379fb6;
+  color: #f0cf61;
 }

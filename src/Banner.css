@@ -1,0 +1,33 @@
+.Banner {
+  background: url("./images/banner3.jpg") center center;
+  height: 40vh;
+  position: relative;
+}
+.banner-info {
+  background: rgba(0, 83, 151, 0.5);
+
+  color: white;
+  height: 40vh;
+  padding: 15vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  width: 600px;
+}
+.banner-info button {
+  background-color: white;
+  color: #005397;
+  border: none;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.banner-info button:hover {
+  background: #f0cf61;
+  color: white;
+}
+.banner-info h5 {
+  margin-top: 10px;
+}
