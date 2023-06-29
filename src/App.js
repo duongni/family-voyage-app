@@ -1,6 +1,7 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import SearchBar from "./SearchBar";
+import Footer from "./Footer";
 
 import Home from "./Home";
 
@@ -11,6 +12,7 @@ function App() {
         <SearchBar />
       </div>
       <Home />
+      <Footer />
     </div>
   );
 }
