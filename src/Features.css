@@ -3,7 +3,9 @@
   display: flex;
   justify-content: space-evenly;
   width: 800px;
-  margin: 10px auto;
+  margin: 30px auto;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 .child-friendly,
 .pool,

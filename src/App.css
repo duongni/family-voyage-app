@@ -23,7 +23,7 @@ body {
   width: 10%;
   line-height: 1;
   letter-spacing: 3px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 .SearchBar {
   display: flex;

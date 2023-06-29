@@ -23,7 +23,7 @@ export default function SearchBar() {
           </div>
           <div className="guest">
             <label>Guests</label>
-            <input type="number" placeholder="add guess" />
+            <input min={0} defaultValue={2} type="number" />
             <button>
               <FontAwesomeIcon icon={faMagnifyingGlass} />
             </button>
