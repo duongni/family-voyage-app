@@ -1,5 +1,6 @@
 import React from "react";
 import "./SearchPage.css";
+import SearchResult from "./SearchResult";
 
 export default function SearchPage() {
   return (
@@ -13,6 +14,7 @@ export default function SearchPage() {
         <button>Rooms and Beds</button>
         <button>More Filters</button>
       </div>
+      <SearchResult />
     </div>
   );
 }
