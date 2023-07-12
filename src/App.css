@@ -94,3 +94,6 @@ input :focus {
 ::placeholder {
   font-size: 12px;
 }
+Link {
+  text-decoration: none;
+}

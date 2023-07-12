@@ -1,3 +1,70 @@
 .SearchResult {
   font-family: "Nunito", sans-serif;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 20px;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  cursor: pointer;
+}
+
+.SearchResult:hover {
+  opacity: 0.8;
+}
+.SearchResult img {
+  height: 200px;
+  width: 350px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.SearchResult-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+.heart {
+  position: absolute;
+  right: 40px;
+  color: lightgray;
+}
+.SearchResult-info-top {
+  width: 40vw;
+}
+.SearchResult-info-top h3 {
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.SearchResult-info-top p {
+  font-size: 13px;
+  color: gray;
+  margin-bottom: 0;
+}
+.SearchResult-info-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.star {
+  color: red;
+}
+.SearchResult-star {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+}
+.SearchResult-price p {
+  text-align: right;
+  color: black;
+}
+.SearchResult-price h2 {
+  margin-bottom: 0;
+  font-weight: 600;
+}
+.SearchResult-price {
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
 }

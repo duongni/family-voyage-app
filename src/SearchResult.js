@@ -1,6 +1,7 @@
 import React from "react";
 import "./SearchResult.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faStar, faHeart } from "@fortawesome/free-solid-svg-icons";
 
 export default function SearchResult({
   img,
@@ -14,7 +15,7 @@ export default function SearchResult({
   return (
     <div className="SearchResult">
       <img src={img} alt="" />
-      <FontAwesomeIcon icon="fa-light fa-heart" className="heart" />
+      <FontAwesomeIcon icon={faHeart} className="heart" />
       <div className="SearchResult-info">
         <div className="SearchResult-info-top">
           <p>{location}</p>
@@ -24,10 +25,9 @@ export default function SearchResult({
         </div>
         <div className="SearchResult-info-bottom">
           <div className="SearchResult-star">
-            <p>
-              <FontAwesomeIcon icon="fa-sharp fa-solid fa-star" />
-              {star}
-            </p>
+            <FontAwesomeIcon icon={faStar} className="star" />
+
+            <strong>{star}</strong>
           </div>
           <div className="SearchResult-price">
             <h2>{price}</h2>

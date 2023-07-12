@@ -2,12 +2,15 @@ import React from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 export default function SearchBar() {
   return (
     <div>
       <header className="SearchBar">
-        <div className="website-name">Family Voyage</div>
+        <Link to="/">
+          <div className="website-name">Family Voyage</div>
+        </Link>
         <div className="bar">
           <div className="location">
             <label>Location</label>

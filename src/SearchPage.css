@@ -3,6 +3,11 @@
 }
 .SearchPage_info {
   padding: 20px;
+  text-align: center;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
 }
 .SearchPage_info p {
   font-size: 14px;
