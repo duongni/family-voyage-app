@@ -5,6 +5,9 @@
   padding: 20px;
   text-align: center;
 }
+.search {
+  text-decoration: none;
+}
 .buttons {
   display: flex;
   justify-content: center;
